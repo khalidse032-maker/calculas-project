@@ -1,0 +1,132 @@
+﻿[36mvite v8.3.2 [32mbuilding client environment for production...[36m[39m
+transforming...
+Γ£ô 2314 modules transformed.
+node.exe : 
+[31mΓ£ù[39m Build 
+failed in 454ms
+At C:\Program Files\no
+dejs\npx.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ([31mΓ£ù[   
+ 39m Build failed     
+in 454ms:String)     
+[], RemoteExcepti    
+on
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+[31merror during 
+build:
+[31mBuild failed 
+with 1 error:
+
+[plugin vite:css] 
+C:/Users/Muhammad Khal
+id/Desktop/calculs/src
+/index.css:undefined:N
+aN
+Error: [postcss] It 
+looks like you're 
+trying to use 
+`tailwindcss` 
+directly as a PostCSS 
+plugin. The PostCSS 
+plugin has moved to a 
+separate package, so 
+to continue using 
+Tailwind CSS with 
+PostCSS you'll need 
+to install `@tailwindc
+ss/postcss` and 
+update your PostCSS 
+configuration.
+    at mt 
+(C:\Users\Muhammad Kha
+lid\Desktop\calculs\no
+de_modules\tailwindcss
+\dist\lib.js:38:1643)
+    at 
+LazyResult.runOnRoot 
+(C:\Users\Muhammad Kha
+lid\Desktop\calculs\no
+de_modules\postcss\lib
+\lazy-result.js:367:16
+)
+    at 
+LazyResult.runAsync 
+(C:\Users\Muhammad Kha
+lid\Desktop\calculs\no
+de_modules\postcss\lib
+\lazy-result.js:296:26
+)
+    at 
+LazyResult.async 
+(C:\Users\Muhammad Kha
+lid\Desktop\calculs\no
+de_modules\postcss\lib
+\lazy-result.js:198:30
+)
+    at 
+LazyResult.then 
+(C:\Users\Muhammad Kha
+lid\Desktop\calculs\no
+de_modules\postcss\lib
+\lazy-result.js:455:17
+)[31m
+    at aggregateBindin
+gErrorsIntoJsError (fi
+le:///C:/Users/Muhamma
+d%20Khalid/Desktop/cal
+culs/node_modules/roll
+down/dist/shared/error
+-Bj1xBdEY.mjs:49:18)
+    at 
+unwrapBindingResult (f
+ile:///C:/Users/Muhamm
+ad%20Khalid/Desktop/ca
+lculs/node_modules/rol
+ldown/dist/shared/erro
+r-Bj1xBdEY.mjs:19:128)
+    at #build (file://
+/C:/Users/Muhammad%20K
+halid/Desktop/calculs/
+node_modules/rolldown/
+dist/shared/rolldown-j
+mAeXo_f.mjs:133:34)
+    at async 
+buildEnvironment (file
+:///C:/Users/Muhammad%
+20Khalid/Desktop/calcu
+ls/node_modules/vite/d
+ist/node/chunks/node.j
+s:34490:66)
+    at async 
+Object.build (file:///
+C:/Users/Muhammad%20Kh
+alid/Desktop/calculs/n
+ode_modules/vite/dist/
+node/chunks/node.js:34
+911:19)
+    at async 
+Object.buildApp (file:
+///C:/Users/Muhammad%2
+0Khalid/Desktop/calcul
+s/node_modules/vite/di
+st/node/chunks/node.js
+:34908:153)
+    at async 
+CAC.<anonymous> (file:
+///C:/Users/Muhammad%2
+0Khalid/Desktop/calcul
+s/node_modules/vite/di
+st/node/cli.js:780:3) 
+{
+  errors: 
+[Getter/Setter]
+}[39m
